@@ -1,0 +1,17 @@
+test_bad_expiry (test_edge.EdgeTests) ... ok
+test_clean_requires_review (test_edge.EdgeTests) ... ok
+test_diff (test_edge.EdgeTests) ... ok
+test_disabled (test_edge.EdgeTests) ... ok
+test_duplicate_id (test_edge.EdgeTests) ... ok
+test_encoded (test_edge.EdgeTests) ... ok
+test_environment (test_edge.EdgeTests) ... ok
+test_expired (test_edge.EdgeTests) ... ok
+test_owner (test_edge.EdgeTests) ... ok
+test_proposed_fix (test_edge.EdgeTests) ... ok
+test_removal (test_edge.EdgeTests) ... ok
+test_wildcard (test_edge.EdgeTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK

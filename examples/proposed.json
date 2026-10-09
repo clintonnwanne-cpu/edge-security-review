@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {
+      "id": "api-auth",
+      "owner": "demo-platform",
+      "environment": "demo",
+      "enabled": true,
+      "path": "/api/session",
+      "token_expires_at": "2026-12-01T00:00:00Z"
+    }
+  ]
+}

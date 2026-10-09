@@ -1,0 +1,23 @@
+{
+  "decision": "REVIEW_REQUIRED",
+  "remaining_findings": [],
+  "introduced": [],
+  "proposed_resolutions": [
+    [
+      "api-auth",
+      "BROAD_OR_UNSUPPORTED_PATH"
+    ],
+    [
+      "api-auth",
+      "EXPIRED_TOKEN_METADATA"
+    ],
+    [
+      "api-auth",
+      "MISSING_OWNER"
+    ]
+  ],
+  "removed_rule_ids": [],
+  "environment_changes": [],
+  "diff": "--- before\n+++ proposed\n@@ -4,9 +4,9 @@\n       \"enabled\": true,\n       \"environment\": \"demo\",\n       \"id\": \"api-auth\",\n-      \"owner\": \"\",\n-      \"path\": \"/*\",\n-      \"token_expires_at\": \"2026-10-01T00:00:00Z\"\n+      \"owner\": \"demo-platform\",\n+      \"path\": \"/api/session\",\n+      \"token_expires_at\": \"2026-12-01T00:00:00Z\"\n     }\n   ]\n }",
+  "limitation": "Fictional metadata only. No token secrets, real traffic, vendor rule semantics, deployment or validation. Every proposal needs human review."
+}
